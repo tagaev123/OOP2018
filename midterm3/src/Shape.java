@@ -25,6 +25,8 @@ public abstract class Shape {
         this.filled= filled;
     }
 
-    double getArea();
+    abstract double getArea();
+    abstract double getPerimeter();
+    public abstract String toString();
 
 }

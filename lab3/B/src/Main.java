@@ -1,4 +1,13 @@
 public class Main {
+    public static class Animal{
+        private String name;
+        public Animal() {}
+        public Animal(String name){
+            this.name = name;
+        }
+        void setName(Stin)
+    }
+
     public static void main(String[] args) {
         Shape cylinder = new Cylinder(5, 10);
         Shape cube = new Cube(25, 25);
@@ -11,5 +20,7 @@ public class Main {
         System.out.println("Volume of cube is " + cube.volume());
         System.out.println("Volume of sphere is " + sphere.volume());
         System.out.println("Volume of cylinder is " + cylinder.volume());
+        Animal a = new Animal("Steve");
+        a.name = "Pasha";
     }
 }

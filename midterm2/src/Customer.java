@@ -3,7 +3,9 @@ public class Customer {
     boolean member = false;
     String memberType;
     public Customer() {}
-    public Customer(String name){
+    public Customer(String name, boolean member, String memberType){
+        this.member = member;
+        this.memberType = memberType;
         this.name = name;
     }
 
@@ -27,9 +29,9 @@ public class Customer {
         this.memberType = memberType;
     }
 
-    @Override
-    String toString(){
-        return "My name is " + this.
+
+    public String toString(){
+        return "My name is " + this.name + ". " + "I am from " + this.memberType;
     }
 
 
