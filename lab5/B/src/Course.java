@@ -11,6 +11,10 @@ public class Course {
         this.instr = instr;
         this.description = description;
     }
+    public Course(String courseTitle, String description){
+        this.courseTitle = courseTitle;
+        this.description = description;
+    }
 
     @Override
     public boolean equals(Object o ){

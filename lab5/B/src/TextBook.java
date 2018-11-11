@@ -5,11 +5,11 @@ public class TextBook {
     ArrayList<String> authors = new ArrayList<String>();
     public TextBook() {}
 
-    public TextBook(String ISBN, String title, String ...a) { //using rest from JS
+    public TextBook(String ISBN, String title, ArrayList<String> authors) { //using rest from JS
         this.ISBN = ISBN;
         this.title = title;
-        for (String author : a) {
-            authors.add(author);
+        for(String a : authors){
+            this.authors.add(a);
         }
     }
         public String getAuthors(){
