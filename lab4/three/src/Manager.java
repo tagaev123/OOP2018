@@ -18,6 +18,7 @@ public class Manager extends Employee implements Comparable <Object>{
     public String toString(){
         return "I am from " + numberOfTeam + "team";
     }
+
     @Override
     public int compareTo(Object o){
         if(super.compareTo(o) == 0){

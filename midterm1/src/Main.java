@@ -6,7 +6,6 @@ public class Main {
 
         System.out.println(s1.isPalindrome());
         System.out.println(s2.isPalindrome());
-
         System.out.println(s1.isSubstring(s2));
 
     }

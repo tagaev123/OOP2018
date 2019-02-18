@@ -1,0 +1,5 @@
+Solomon 1 1 2500
+AirMax 1 2 50000
+GTAV 1 3 12500
+HarryPotter 2 1 5000
+NeedForSpeed 2 3 7000
